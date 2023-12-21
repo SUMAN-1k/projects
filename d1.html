@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="demo.css">
+<title>Sgpa calculator</title>
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+</style>
+</head>
+
+<body style="background-color:rgb(203, 199, 199);"></body>
+
+<div class="container">
+<form >
+<h1><b>SGPA CALCULATOR</b></h1>
+<h2><b>CHEMISTRY CYCLE</b></h2>
+<h5>
+    <marquee> PLEASE ENTER YOUR MARKS</marquee>
+</h5>
+
+
+    <input type="number" id="marks1" name="maths" placeholder="21MAT11" required><br>
+    <input type="number" id="marks2" name="CHEMISTRY" placeholder="21CHE12" required><br>
+    <input type="number" id="marks3" name="PSP" placeholder="21PSP13" required><br>
+    <input type="number" id="marks4" name="elN" placeholder="21ELN14" required><br>
+    <input type="number" id="marks5"  name="eme" placeholder="21EME15" required><br>
+    <input type="number"  id="marks6" name="clab" placeholder="21CHEL16" required><br>
+   <input type="number" id="marks7" name="psplab" placeholder="21CPL17" required><br>
+    <input type="number"  id="marks8" name="english" placeholder="21EGH18" required><br>
+    <input type="number"  id="marks9" name="sfh" placeholder="21SFH19" required><br>
+
+<br>
+<br>
+<br>
+</form>
+<button type="submit" onclick="validate()" id="but1">Calculate SGPA</button><br>
+<br>
+<br>
+</div>
+<div class="contaier"
+style="width: 320px;border:1px solid#e65b00;
+background:#e65b00;
+color:white;
+height: 60px; margin-top: -20px; margin-left: -70px; 
+font-size: large; font-weight: 600; border-radius: 10px;
+text-align: center; margin-left: 40%;">
+<br><b>SGPA: <span id="s1"></span></b>
+</div>
+<script src="s.js"></script>
+</body>
+</html>

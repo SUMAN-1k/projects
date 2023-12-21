@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="demo.css">
+<title>Sgpa calculator</title>
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+</style>
+</head>
+
+<body style="background-color:rgb(203, 199, 199);"></body>
+
+<div class="container">
+<form >
+<h1><b>SGPA CALCULATOR</b></h1>
+<h2><b>FOURTH SEM</b></h2>
+<h5><marquee> PLEASE ENTER YOUR MARKS</marquee>
+</h5>
+    <input type="number" id="marks1" name="maths" placeholder="21MAT41" required><br>
+    <input type="number" id="marks2" name="ada" placeholder="21XX42" required><br>
+    <input type="number" id="marks3" name="mc" placeholder="21XX43" required><br>
+    <input type="number" id="marks4" name="os" placeholder="21XX44" required><br>
+    <input type="number" id="marks5"  name="biology" placeholder="21BE45" required><br>
+    <input type="number"  id="marks6" name="python" placeholder="21XX46" required><br>
+   <input type="number" id="marks7" name="kannada" placeholder="21XXX47" required><br>
+    <input type="number"  id="marks8" name="uhv" placeholder="21UHV49" required><br>
+    <input type="number"  id="marks9" name="intra" placeholder="21INT49" required><br>
+    <input type="number"  id="marks10" name="web prg" placeholder="21XXL481" required><br>
+
+<br>
+<br>
+<br>
+</form>
+<button type="submit" onclick="validate()" id="but1">Calculate SGPA</button><br>
+<br>
+<br>
+</div>
+<div class="contaier"
+style="width: 320px;border:1px solid#e65b00;
+background:#e65b00;
+color:white;
+height: 60px; margin-top: -20px; margin-left: -70px; 
+font-size: large; font-weight: 600; border-radius: 10px;
+text-align: center; margin-left: 40%;">
+<br><b>SGPA: <span id="s1"></span></b>
+</div>
+<script src="sem4.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="demo.css">
+<title>Sgpa calculator</title>
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+</style>
+</head>
+
+<body style="background-color:rgb(203, 199, 199);"></body>
+
+<div class="container">
+<form >
+<h1><b>SGPA CALCULATOR</b></h1>
+<h2><b>THIRD SEM</b></h2>
+<h5>
+    <marquee> PLEASE ENTER YOUR MARKS</marquee>
+</h5>
+
+
+    <input type="number" id="marks1" name="maths" placeholder="21MAT31" required><br>
+    <input type="number" id="marks2" name="ds" placeholder="21XX32" required><br>
+    <input type="number" id="marks3" name="ade" placeholder="21XX33" required><br>
+    <input type="number" id="marks4" name="co" placeholder="21XX34" required><br>
+    <input type="number"  id="marks5" name="java" placeholder="21XXL35" required><br>
+   <input type="number" id="marks6" name="scr" placeholder="21XX36" required><br>
+    <input type="number"  id="marks7" name="cip" placeholder="21XX37" required><br>
+    <input type="number"  id="marks8" name="mo" placeholder="21XXL381" required><br>
+
+<br>
+<br>
+<br>
+</form>
+<button type="submit" onclick="validate()" id="but1">Calculate SGPA</button><br>
+<br>
+<br>
+</div>
+<div class="contaier"
+style="width: 320px;border:1px solid#e65b00;
+background:#e65b00;
+color:white;
+height: 60px; margin-top: -20px; margin-left: -70px; 
+font-size: large; font-weight: 600; border-radius: 10px;
+text-align: center; margin-left: 40%;">
+<br><b>SGPA: <span id="s1"></span></b>
+</div>
+<script src="sem3.js"></script>
+</body>
+</html>
